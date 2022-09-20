@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-Import PortfolioContainer from "./components/PortfolioContainer";
+import PortfolioContainer from "./components/PortfolioContainer";
 
 const App = () => <PortfolioContainer />;
 

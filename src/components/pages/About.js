@@ -1,18 +1,17 @@
-import React from "react";
+import React from 'react';
 
 export default function About() {
-    return (
-        <section>
-            <h1 id="about">About Me</h1>
-            <p>
-            Hi, my name Chase Stratton. I'm a newly taught full stack developer with an focus area in
-							MERN. Outside of being a Developer I am a Photographer and creative.</p>
-						<p>Just to give a brief history of my background, I graduated from West Chester university with
-							a Bachelors in communications. My passions include but not limited to "Creative Arts,
-							Technology, Environmental Change and Social Activism". I strive to make an active change in
-							the world hopefully being able to merge the ARTS, TECHNOLOGY, SOCIAL ACTIVISM with
-							ENVIRONMENTAL CHANGE into a innovative solution to fix the disperse around the world.
-            </p>
-        </section>
-    );
+  return (
+    <div>
+      <h1>About Page</h1>
+      <p>
+        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
+        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
+        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
+        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
+        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
+        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      </p>
+    </div>
+  );
 }

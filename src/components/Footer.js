@@ -1,27 +1,26 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//     faGithub,
-//     faLinkedin,
-// } from "@fortawesome/free-brands-svg-icons";
-
-
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+// import { Link } from "react-scroll";
 const Footer = () => {
-    return (
-        <footer className="mt-5">
-            <Container fluid={true}>
-                <Row className="border-top justify-content-between p-3">
-                    <Col className="p-0" md={3} sm={12}>
-                    </Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was made by Chase Stratton
-                    </Col>
-                </Row>
-            </Container>
-        </footer>
-    );
-}
+  return (
+    <div className="footer">
+      <div className="container">
+        <div className=" aling-items-center">
+          <div className="d-flex justify-content-center">
+            <a href="https://github.com/Chasek6" target="_blank" className="link">
+              {" "}
+              <FaGithub className="media" />
+            </a>
+            <a href="https://www.linkedin.com/in/chase-stratton-ab117a149/" target="_blank" className="link">
+              {" "}
+              <FaLinkedin className="media" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Footer;
 

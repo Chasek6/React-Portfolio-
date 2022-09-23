@@ -1,7 +1,8 @@
 import React from 'react';
 import { Nav, Navbar, Container, Tab, Tabs,NavDropdown, NavbarBrand} from 'react-bootstrap';
+import { Box, Flex, Stack, Grid, Wrap, AspectRatio } from "@chakra-ui/layout"
 
-import CS1 from '../images/CS1.png';
+
 
 
 
